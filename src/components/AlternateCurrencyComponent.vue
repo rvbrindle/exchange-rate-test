@@ -28,9 +28,12 @@ button {
   transition: all ease-in-out .2s;
   transform: scale(1);
   border-radius: 1rem;
+  outline: white;
+  border: 1px solid white;
 
   &:hover {
     transform: scale(1.2);
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.65);
   }
 }
 </style>

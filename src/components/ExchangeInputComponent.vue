@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import CountriesListComponent from "./CountriesListComponent.vue";
+import CurrenciesListComponent from "@/components/CurrenciesListComponent.vue";
 </script>
 <template>
   <div class="exchange-input-container">
-    <p>Please select currency</p>
-    <CountriesListComponent></CountriesListComponent>
+    <h2>Please select currency</h2>
+    <CurrenciesListComponent></CurrenciesListComponent>
   </div>
 </template>
